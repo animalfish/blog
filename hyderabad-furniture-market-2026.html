@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>海德拉巴家具市场 2026 · 本土企业联络手册</title>
+<style>
+  :root {
+    --ink: #1c1915;
+    --muted: #5c564c;
+    --line: #e4dcd0;
+    --paper: #f7f3ec;
+    --card: #fffdf9;
+    --teak: #8c4a2f;
+    --teak-dark: #5e301c;
+    --gold: #a6844a;
+    --chip: #f3ebe1;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--paper);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 80px; }
+  header.hero {
+    background: var(--teak-dark);
+    color: #f8f1e7;
+    padding: 48px 20px 36px;
+  }
+  header.hero .wrap { padding-top: 0; padding-bottom: 0; }
+  .kicker { letter-spacing: .18em; font-size: 12px; text-transform: uppercase; color: #e6c98a; margin: 0 0 10px; }
+  h1 { font-family: "Songti SC", "Noto Serif SC", "STSong", serif; font-weight: 600; font-size: 36px; line-height: 1.25; margin: 0 0 12px; }
+  .lede { max-width: 720px; color: #f0e6d6; margin: 0; }
+  .toolbar { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+  button, .btn {
+    appearance: none; border: 1px solid #e6c98a; background: transparent; color: #f8f1e7;
+    padding: 8px 14px; border-radius: 999px; cursor: pointer; font: inherit; text-decoration: none;
+  }
+  button:hover, .btn:hover { background: #e6c98a; color: var(--teak-dark); }
+  nav.toc {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: -22px 0 28px;
+  }
+  nav.toc a {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+    text-decoration: none; color: var(--ink); box-shadow: 0 8px 24px rgba(94,48,28,.06);
+  }
+  nav.toc strong { display: block; font-size: 14px; }
+  nav.toc span { color: var(--muted); font-size: 12px; }
+  h2 {
+    font-family: "Songti SC", "Noto Serif SC", "STSong", serif;
+    font-size: 28px; margin: 36px 0 8px; color: var(--teak-dark);
+  }
+  h3 { margin: 0 0 6px; font-size: 20px; }
+  .note, .method {
+    background: var(--chip); border-left: 4px solid var(--gold); padding: 12px 14px; border-radius: 0 10px 10px 0;
+    color: var(--muted); font-size: 14px; margin: 12px 0 18px;
+  }
+  article.card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 8px;
+    margin: 14px 0; break-inside: avoid;
+  }
+  .rank {
+    display: inline-block; background: var(--teak); color: #fff; border-radius: 999px;
+    font-size: 12px; padding: 2px 10px; margin-bottom: 8px;
+  }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+  dl { display: grid; grid-template-columns: 88px 1fr; gap: 6px 10px; margin: 0 0 12px; font-size: 15px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  a { color: var(--teak-dark); }
+  ul.clean { margin: 8px 0 14px; padding-left: 18px; }
+  footer { color: var(--muted); font-size: 13px; margin-top: 28px; }
+  @media (max-width: 800px) {
+    nav.toc { grid-template-columns: 1fr 1fr; }
+    h1 { font-size: 28px; }
+    dl { grid-template-columns: 1fr; }
+  }
+  @media print {
+    header.hero { background: #fff; color: #000; padding: 0; }
+    .lede, .kicker { color: #333; }
+    .toolbar, nav.toc { display: none; }
+    body { background: #fff; }
+    article.card { box-shadow: none; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Hyderabad · Furniture Market · October 2026</p>
+    <h1>印度海德拉巴家具市场 2026<br>本土企业联络手册</h1>
+    <p class="lede">每类只列前 5 家总部或主场在海德拉巴的本土企业，并附可公开核验的电话、邮箱、地址与官网。全国连锁（Livspace、HomeLane、IKEA、Godrej、Home Centre、Prestige、Brigade 等）不进入名单。</p>
+    <div class="toolbar">
+      <button type="button" id="save">下载 HTML</button>
+      <button type="button" onclick="window.print()">打印 / 存 PDF</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="toc">
+    <a href="#design"><strong>01 品牌设计</strong><span>5 家本土设计工作室</span></a>
+    <a href="#fitout"><strong>02 装修公司</strong><span>5 家本土装修 / 模块化</span></a>
+    <a href="#dealers"><strong>03 家具经销</strong><span>5 家本土经销与专卖</span></a>
+    <a href="#realty"><strong>04 在建地产</strong><span>5 家本土开发商</span></a>
+  </nav>
+
+  <div class="method">
+    <strong>排序口径。</strong>
+    公开规模（营收、项目体量、门店或展厅）优先，其次是经营年限和海德拉巴项目密度。私人公司很少公布审计营收，第三方金额只作筛选，不当作官方销售额。联络方式优先采用企业官网；名录电话会单独标明。调查日期：2026 年 10 月 10 日。
+  </div>
+
+  <h2 id="design">1. 品牌设计公司 · 本土前五</h2>
+  <p class="note">这一类是以设计为核心的海德拉巴工作室。Livspace、HomeLane、DesignCafe 是全国连锁，已排除。Anusha Shetty Designs 在海德拉巴有工作室，但官网把班加罗尔写在前面，未列入前五。</p>
+
+  <article class="card">
+    <div class="rank">设计 01</div>
+    <h3>Inhabit（创始人 Neeta Kumar）</h3>
+    <p class="meta">2004 / 2005 年起于海德拉巴。自有制造，家具与全屋定制一体。Architectural Digest 有工作室档案。德里有一家展厅，主场仍是 Banjara Hills。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 99491 39666（旗舰店）；+91 90941 66999（Road No.10 / 德里）</dd>
+      <dt>邮箱</dt><dd>furniture@inhabit.in；info@inhabit.in</dd>
+      <dt>地址</dt><dd>旗舰店：8-2-681/A/5/1, 2/3, Road No.12, Banjara Hills, Hyderabad 500034<br>工厂：Sy No.177/28, Near HPRC, Aziz Nagar, Moinabad, RR Dist</dd>
+      <dt>官网</dt><dd><a href="https://www.neetakumar.com/contact.html">neetakumar.com/contact</a> · <a href="https://www.inhabit.in">inhabit.in</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">设计 02</div>
+    <h3>Iroko Interiors</h3>
+    <p class="meta">2008 年起在海德拉巴做住宅与商业室内。公司 Iroko Interiors Private Limited，CIN U74999TG2018PTC127965。官网自称 1000+ 客户，该数字是企业宣传。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 709 758 9999</dd>
+      <dt>邮箱</dt><dd>info@irokointeriors.com</dd>
+      <dt>地址</dt><dd>SYNO. 240, 242 &amp; 243, Shop No. 3 &amp; 4, New Bowenpally, Chinna Thokatta, Secunderabad 500011</dd>
+      <dt>时间</dt><dd>周一至周六 9:30–18:30</dd>
+      <dt>官网</dt><dd><a href="https://www.irokointeriors.com/contact.html">irokointeriors.com/contact</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">设计 03</div>
+    <h3>D'Interio 设计工作室</h3>
+    <p class="meta">Begumpet 的奢侈全屋工作室，项目门槛 ₹50 lakh。与 Banjara Hills 的 D'Interio Furniture Koncepts 家具店不是同一个联络页，家具店电话见第 3 节备选。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 91002 22233</dd>
+      <dt>邮箱</dt><dd>support@dinterio.in</dd>
+      <dt>地址</dt><dd>303, Kochar Towers, Begumpet, Hyderabad 500016</dd>
+      <dt>时间</dt><dd>周一至周五 10:00–18:00；周六 11:00–16:00</dd>
+      <dt>官网</dt><dd><a href="https://dinterio.in/contact">dinterio.in/contact</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">设计 04</div>
+    <h3>D'Mor Interiors</h3>
+    <p class="meta">2015 年成立，前身为 Sai Akhil Interiors。官网称完成 200+ 住宅项目。体量小于前三家，西海德拉巴项目密度高。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 89770 66990</dd>
+      <dt>邮箱</dt><dd>support@dmorinteriors.com（联系页另有一处拼写 support@dmorinterios.com，发信请用带 r 的地址）</dd>
+      <dt>地址</dt><dd>5th Floor, Block-D, Hill Country, near Dmart, Nizampet, Hyderabad 500090</dd>
+      <dt>时间</dt><dd>每天 9:00–18:30</dd>
+      <dt>官网</dt><dd><a href="https://dmorinteriors.com/contact.php">dmorinteriors.com/contact</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">设计 05</div>
+    <h3>Studiorigin</h3>
+    <p class="meta">Gachibowli 体验中心，住宅与商业全案设计加落地。官网称有制造设施。公开项目数量少于 D'Mor，但西区样板间触达更直接。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 91107 08124</dd>
+      <dt>邮箱</dt><dd>hello@studiorigin.in</dd>
+      <dt>地址</dt><dd>SVR Peaks, 3rd Floor, Plot No.20, Jayabheri Enclave, Gachibowli, Hyderabad 500032</dd>
+      <dt>官网</dt><dd><a href="https://www.studiorigin.in/contact-us">studiorigin.in/contact-us</a></dd>
+    </dl>
+  </article>
+
+  <h2 id="fitout">2. 装修公司 · 本土前五</h2>
+  <p class="note">这一类按施工和工厂能力排。Centrix 以商业工装为主，营收公开口径最高。后四家以住宅模块化和全屋交钥匙为主。Flow Interio 总部在海德拉巴，模块化厨房服务已延伸到班加罗尔、维杰亚瓦达和维沙卡帕特南。</p>
+
+  <article class="card">
+    <div class="rank">装修 01</div>
+    <h3>Centrix Interiors / Centrix Projects</h3>
+    <p class="meta">2006 年注册，Banjara Hills。商业办公工装，客户页出现 Puma、AB InBev、Fidelity 等。第三方数据库曾给出 FY25 约 ₹106 Cr，这不是审计营收。</p>
+    <dl>
+      <dt>邮箱</dt><dd>hello@centrixprojects.com（官网）；注册邮箱 centrixprojects@gmail.com</dd>
+      <dt>电话</dt><dd>官网首页未列总机。名录电话：+91 88855 59506；另一名录 +91 96665 14028。拨打前与官网邮箱核对。</dd>
+      <dt>地址</dt><dd>#8-2-311/A/A, Road No.10, Mithila Nagar, Banjara Hills, Hyderabad 500034</dd>
+      <dt>官网</dt><dd><a href="https://www.centrixprojects.com/">centrixprojects.com</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">装修 02</div>
+    <h3>GoGreen Project Solutions</h3>
+    <p class="meta">原 Spectra Interiors，2001 年起。模块化厨房、衣柜、办公室、土建和项目管理。负责人公开信息为 Mohan Gudimetla。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 94400 00555</dd>
+      <dt>邮箱</dt><dd>mohan@gogreenprojects.in</dd>
+      <dt>地址</dt><dd>B-409, The Platina, Gachibowli, Hyderabad 500032。旧名录另有 Banjara Hills, Jyothi Villa, Lane No.12，以 Platina 现址为准。</dd>
+      <dt>官网</dt><dd><a href="https://www.gogreenprojects.in/">gogreenprojects.in</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">装修 03</div>
+    <h3>FICS Interiors</h3>
+    <p class="meta">Fics Interiors Pvt Ltd。关于页写 2007 年，部分页面写 2014 年起服务 HITEC City 一带，两处年份并存。宣传口径 2500+ 项目、Hettich / Häfele。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 81252 86444；+91 81252 87444（含 WhatsApp）</dd>
+      <dt>邮箱</dt><dd>info@ficsinteriors.com</dd>
+      <dt>地址</dt><dd>Innovative Cyber View Apartment, Flat P2, 5th Floor, Huda Techno Enclave, Hitech City, Madhapur, Hyderabad 500081</dd>
+      <dt>时间</dt><dd>周一至周六 9:00–18:00</dd>
+      <dt>官网</dt><dd><a href="https://www.ficsinteriors.com/">ficsinteriors.com</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">装修 04</div>
+    <h3>Flow Interio</h3>
+    <p class="meta">2016 年创立于海德拉巴。创始人 Srikar Pittala。Madhapur 总部加 Kokapet 体验中心，自有工厂，模块化保修宣传最长约 10 年。</p>
+    <dl>
+      <dt>电话</dt><dd>Madhapur +91 94944 69091；Kokapet +91 99486 64664；页面另见 +91 90329 99763</dd>
+      <dt>邮箱</dt><dd>info@flowinterio.com；招聘 hr@flowinterio.com</dd>
+      <dt>地址</dt><dd>总部：Plot 1299, 1st &amp; 2nd Floor, KK Ashika Avenue, Road No.29, Ayyappa Society, Madhapur 500081<br>Kokapet：Shop 216/217/218/227, Terminal by Radha Spaces, Narsingi 500075</dd>
+      <dt>官网</dt><dd><a href="https://flowinterio.com/contact-us">flowinterio.com/contact-us</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">装修 05</div>
+    <h3>Krissm</h3>
+    <p class="meta">2010 年由 Kiran Kumar 与 Sailaja 创立。海德拉巴工厂做模块化厨房、衣柜，并做进口家具配套。适合作为本地产能，而不是零售连锁。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 94849 94849</dd>
+      <dt>邮箱</dt><dd>info@krissm.com</dd>
+      <dt>地址</dt><dd>办公室：11th Floor, Gahana Building, Mourya Ranga Prasad Ave, Indira Nagar, Gachibowli 500032<br>工厂：Plot 146, TSIIC, Chandenvalle, Hyderabad 501503</dd>
+      <dt>官网</dt><dd><a href="https://krissm.com/">krissm.com</a></dd>
+    </dl>
+  </article>
+
+  <h2 id="dealers">3. 品牌家具经销与专卖店 · 本土前五</h2>
+  <p class="note">排除 IKEA、Godrej Interio、Home Centre、Durian、WoodenStreet、Royaloak、Stanley、Pepperfry、Urban Ladder。Anu 与 Furniture World 在海德拉巴起家，分别在班加罗尔、维沙卡帕特南有点位，仍按本土经销商列入，并注明外地地址。</p>
+
+  <article class="card">
+    <div class="rank">经销 01</div>
+    <h3>Anu Furniture</h3>
+    <p class="meta">1994 年从 Chandanagar 起家。Tracxn 口径 FY25 约 ₹50–100 Cr。官网现列 14 家海德拉巴店。IndiaMART 仍写 4 店和 ₹5–25 Cr，那是更旧、更窄的 GST 口径。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 86880 03033；+91 91009 13033</dd>
+      <dt>邮箱</dt><dd>info@anufurnitures.com</dd>
+      <dt>地址</dt><dd>注册地址：4-100, Mumbai Hwy, opp. BSNL Telephone Exchange, Gangaram, Chanda Nagar, Hyderabad 500050<br>班加罗尔地址：C No. 806/701, Whitefield, Bengaluru 560066</dd>
+      <dt>门店</dt><dd>A.S. Rao Nagar、Attapur、Boduppal、Chandanagar、Gachibowli、Habsiguda、Kompally、Kukatpally、LB Nagar、Miyapur、Nagaram、Patancheru、Rajendra Nagar、Uppal</dd>
+      <dt>官网</dt><dd><a href="https://www.anufurnitures.com/contact-us">anufurnitures.com/contact-us</a></dd>
+    </dl>
+    <p class="meta">Chandanagar 店另有 +91 40 2303 3811、+91 93485 23033。其余分店电话以官网门店页为准。</p>
+  </article>
+
+  <article class="card">
+    <div class="rank">经销 02</div>
+    <h3>Bantia Furnitures</h3>
+    <p class="meta">Bantia Furnitures Pvt Ltd，FY25 公开口径约 ₹54.4 Cr。不要与 Noble Bantia、True Furniture 加总。品牌自称约 65 年，展厅覆盖 Secunderabad、Kukatpally、Dilsukhnagar、Jubilee Hills、Kompally、Attapur、A.S. Rao Nagar 等。</p>
+    <dl>
+      <dt>电话</dt><dd>040-27841562 / 27841563 / 27841565</dd>
+      <dt>邮箱</dt><dd>bantiaenquiry@gmail.com</dd>
+      <dt>地址</dt><dd>Bantia Estates, 207, Sikh Road, Secunderabad 500003</dd>
+      <dt>官网</dt><dd><a href="https://bantia.in/pages/contact">bantia.in/pages/contact</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">经销 03</div>
+    <h3>Bontrue</h3>
+    <p class="meta">Bontrue India，FY25 公开口径约 ₹34.1 Cr。本地高端成品家具，5 个海德拉巴点位。</p>
+    <dl>
+      <dt>电话</dt><dd>+91 90000 13135</dd>
+      <dt>邮箱</dt><dd>helpdesk@bontrue.in</dd>
+      <dt>地址</dt><dd>联系页：Sy No. 161/AA, Opp D-Mart, Besides Canara Bank, Ashok Nagar, Ramachandrapuram 502032<br>Banjara Hills：Vasavi Corporate Building, Road No.12, beside Century Hospital 500034<br>Kompally：1st &amp; 2nd Floor, Sy No.127, above Ratnadeep, Ruby Block 500014</dd>
+      <dt>门店</dt><dd>Banjara Hills、Kompally、Sarath City Capital Mall（Kondapur）、Ramachandrapuram、Sun City</dd>
+      <dt>官网</dt><dd><a href="https://bontrue.in/pages/contact-us">bontrue.in/pages/contact-us</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">经销 04</div>
+    <h3>Furniture World</h3>
+    <p class="meta">1957 年起。Banjara Hills 旗舰约 7 层、10 万平方英尺以上。公开营收互相矛盾，本手册不引用单一营收。维沙卡帕特南有一家分店。</p>
+    <dl>
+      <dt>电话</dt><dd>040-23351222；+91 97013 62951 / 62953 / 62954</dd>
+      <dt>邮箱</dt><dd>info@furnitureworldindia.com（隐私政策页）</dd>
+      <dt>地址</dt><dd>Plot No.1, Journalist Colony, Road No.3, Banjara Hills, Hyderabad 500034</dd>
+      <dt>官网</dt><dd><a href="https://www.furnitureworldindia.com/contact.html">furnitureworldindia.com/contact</a></dd>
+    </dl>
+  </article>
+
+  <article class="card">
+    <div class="rank">经销 05</div>
+    <h3>FWD Furniture &amp; More</h3>
+    <p class="meta">官网写明海德拉巴 5 家店，版权页为 2026。规模小于前四家，但是仍在营业的本地多店经销商。</p>
+    <dl>
+      <dt>邮箱</dt><dd>enquiry@gofwd.in</dd>
+      <dt>电话</dt><dd>门店页呼叫入口原文为 1800123123669，位数异常，拨打前请向门店确认。Karkhana 名录另有 +91 40 27746606、+91 99665 07807。</dd>
+      <dt>门店</dt><dd>Kompally：Beside Renova Hospital, NCL Enclave South, Bolarum 500015<br>A.S. Rao Nagar：Plot 5, Kamala Nagar, ECIL 500062<br>Karkhana：Wellington Rd, Old Vasavi Nagar 500009<br>Miyapur：Jagdish Complex, NH65 500049<br>Gachibowli：5, Old Mumbai Hwy, Greenland Colony 500032</dd>
+      <dt>官网</dt><dd><a href="https://gofwd.in/pages/our-stores">gofwd.in/pages/our-stores</a></dd>
+    </dl>
+  </article>
+
+  <h2 id="realty">4. 在建房地产 · 本土开发商前五</h2>
+  <p class="note">按开发商排，不按单个楼盘排。Prestige、Brigade、Godrej Properties 是全国开发商，已排除。交房日和套数若官网与聚合网站不一致，以 Telangana RERA（rera.telangana.gov.in）和买卖协议为准。家具需求集中在 Kokapet / Neopolis、Gopanpally 和 Kukatpally 的交付窗口。</p>
+
+  <article class="card">
+    <div class="rank">地产 01</div>
+    <h3>My Home Constructions</h3>
+    <p class="meta">海德拉巴本地最大开发商之一。销售联络统一走 Madhapur 总部。</p>
+    <dl>
+      <dt>电话</dt><dd>销售 +91 99895 55777；备用 +91 91549 81691 / 81692</dd>
+      <dt>邮箱</dt><dd>nri@myhomeconstructions.com；mktg@myhomeconstructions.com</dd>
+      <dt>地址</dt><dd>H No 1-123, 8th Floor, 3rd Block, My Home Hub, HITEC City, Madhapur, Hyderabad 500081</dd>
+      <dt>时间</dt><dd>周一至周五 9:00–17:30</dd>
+      <dt>官网</dt><dd><a href="https://www.myhomeconstructions.com/contact-us/">myhomeconstructions.com/contact-us</a></dd>
+    </dl>
+    <ul class="clean">
+      <li><strong>My Home 99</strong>，Neopolis / Kokapet。1 栋 G+53，99 套 4BHK，1.74 英亩，4 层会所。地址：Khanapur Survey No. 240/P, Gandipet 500075。建筑许可 6/SKP/PLG/HMDA/2022。<a href="https://www.myhomeconstructions.com/my-home-99/">项目页</a></li>
+      <li><strong>My Home Apas</strong>，Kokapet。6 栋 G+44，13.52 英亩，3BHK，会所约 72,000 平方英尺。官网进度：2、3 号楼已完成第 44 层顶板，4 号楼第 20 层，5 号楼第 19 层，6 号楼第 12 层（页面未写更新日期）。建筑许可 3257/MSB/EXC/SKP/PLP/HMDA/2022。<a href="https://www.myhomeconstructions.com/my-home-apas/">项目页</a></li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="rank">地产 02</div>
+    <h3>Rajapushpa Properties</h3>
+    <p class="meta">2006 年起，总部在 Financial District。Kokapet、Neopolis、Tellapur、Narsingi 同时有工地办公室，是 2026–2028 年软装批量的主要本土盘源。</p>
+    <dl>
+      <dt>电话</dt><dd>Kokapet +91 76600 05500；Tellapur +91 98352 33233；Neopolis +91 86882 00400</dd>
+      <dt>邮箱</dt><dd>sales@rajapushpa.in</dd>
+      <dt>地址</dt><dd>6th Floor, Rajapushpa Summit, Nanakramguda Road, Financial District, Gachibowli, Hyderabad 500032</dd>
+      <dt>官网</dt><dd><a href="https://rajapushpa.in/contact">rajapushpa.in/contact</a></dd>
+    </dl>
+    <ul class="clean">
+      <li><strong>Pristinia</strong> 工地：98WG+7F8, Kokapet 500075</li>
+      <li><strong>Casa Luxura</strong> 工地：Survey No. 239 P &amp; 240, Kokapet, Gandipet 500075</li>
+      <li><strong>Skyra</strong> 工地：Survey No. 239 &amp; 240, Plot 7, Neopolis, Kokapet 500075</li>
+      <li><strong>Imperia</strong>：Sy No.447, Osman Nagar, Tellapur 502032</li>
+      <li><strong>Provincia</strong>：Sy No.206, Nanakramguda Service Road, Puppalaguda, Narsingi 500075</li>
+      <li><strong>Infina</strong>：Manchirevula / Narsingi 500089</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="rank">地产 03</div>
+    <h3>Aparna Constructions and Estates</h3>
+    <p class="meta">总部在 Banjara Hills。官网办公室页同时列海德拉巴、维杰亚瓦达、班加罗尔，主场仍是海德拉巴。在建大盘是 Gopanpally 的 Moonstone。</p>
+    <dl>
+      <dt>电话</dt><dd>040-23352708；+91 70953 33335。采购线 040-23352068</dd>
+      <dt>邮箱</dt><dd>sales@aparnaconstructions.com；采购 purchase@aparnaconstructions.com</dd>
+      <dt>地址</dt><dd>#802, Door 6-3-352/2&amp;3, Astral Heights, Road No.1, Banjara Hills, Hyderabad 500034</dd>
+      <dt>官网</dt><dd><a href="https://www.aparnaconstructions.com/contact-us">aparnaconstructions.com/contact-us</a></dd>
+    </dl>
+    <ul class="clean">
+      <li><strong>Aparna Moonstone</strong>（Aparna Deccan Town，Gopanpally）。RERA P02400009478，状态 Under Construction。申报开工 2024-12-20，原定完工 2030-04-20。推广主体 Aparna Infrahousing Private Limited。二次资料写约 22.28 英亩、8 栋、2,088 套、3/4 BHK，套数以 RERA 披露为准。2026 年 7 月、8 月开发商仍在发布施工进度。</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="rank">地产 04</div>
+    <h3>DSR Infrastructure · DSR Valar</h3>
+    <p class="meta">海德拉巴总部，班加罗尔有分公司。Kokapet 的 Valar 在官网标为 ONGOING。面积和套数与聚合网站不一致。</p>
+    <dl>
+      <dt>电话</dt><dd>总部 +91 40 2999 2222 / 2999 2223；Valar 项目页 +91 90001 35707；项目站 +91 76750 40404</dd>
+      <dt>邮箱</dt><dd>sales.hyd@dsrinfra.com；hyd@dsrinfra.com；项目站 dsrvalar@gmail.com</dd>
+      <dt>地址</dt><dd>Plot 221, 1st Floor, Road No.17, Opp. Jubilee Hills International Centre, Hyderabad 500033<br>项目：Kokapet, Khanapur</dd>
+      <dt>官网</dt><dd><a href="https://www.dsrinfra.com/property/dsr-valar-kokapet/">dsrinfra.com · Valar</a> · <a href="https://dsrvalar.co.in/">dsrvalar.co.in</a></dd>
+    </dl>
+    <ul class="clean">
+      <li>开发商页：3 英亩，36 层，282 套。Square Yards：约 5.3 英亩、783 套、4BHK、约 ₹3.40 Cr 起、交房 2027 年 8 月、RERA 写成 P02400003991。两套数字并存，签约前打开 RERA 原文。</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="rank">地产 05</div>
+    <h3>Honer Homes</h3>
+    <p class="meta">2016 年起的海德拉巴开发商。Kukatpally 的 Signatis 一期交房写在 2026 年 12 月，二期 2027 年 12 月，调查时仍为在建。软装窗口近。</p>
+    <dl>
+      <dt>电话</dt><dd>公司 +91 78278 66666；销售 / 工地 +91 90215 16666</dd>
+      <dt>邮箱</dt><dd>sales@honerhomes.com</dd>
+      <dt>地址</dt><dd>Survey No. 627 &amp; 1011/1, Honer IDL Access Road, Kukatpally, Hyderabad 500072</dd>
+      <dt>官网</dt><dd><a href="https://www.honerhomes.com/contact">honerhomes.com/contact</a></dd>
+    </dl>
+    <ul class="clean">
+      <li><strong>Honer Signatis</strong>：IDL Access Road, Kukatpally。3 / 3.5 / 4 BHK。一期 2026 年 12 月，二期 2027 年 12 月。</li>
+      <li><strong>Honer Richmont</strong>：Survey No.627 &amp; 629, Green Hills Road, HITEC City。销售电话同上。</li>
+      <li>Gopanpally 的 Aquantis 官网标为交付进行中，Vivantis 销售办公室在 Sy No.176, Cross Roads, Gopanpally。</li>
+    </ul>
+  </article>
+
+  <h2>使用说明</h2>
+  <div class="method">
+    <p>未进前五、但仍是海德拉巴本地、联系方式已核到的备选：装修工厂 Holzbox（hello@holzbox.in，+91 73311 15919，Attapur / Satamrai 工厂）和 Spandrel Mobilia（info@spandrelmobilia.com，+91 90524 40003，Shaikpet）。地产方面，SAS Infra 的 Diamond Towers（Financial District，RERA P02400002881，sales@sasinfra.com，+91 97186 62299，Kondapur 办公室在 Modern Profound Tech Park）聚合页面曾写 2026 年 9 月交付，2026 年 10 月应按尾盘或交房期核实，不与仍在主体施工的项目并列。</p>
+    <p>Banjara Hills 家具店 D'Interio Furniture Koncepts：8-2-685/1, 1/A, Road No.12，+91 88855 66022，dinterio.com。它更接近专卖展示，公开规模不足以挤进经销前五。</p>
+    <p>本文件是市场筛查，不是采购担保。电话和工地进度会变。成交前用官网和 RERA 再核一次。</p>
+  </div>
+
+  <footer>
+    海德拉巴家具市场本土联络手册 · 2026-10-10 · 来源为企业官网、RERA 聚合页与公开名录。金额单位 ₹ Cr = 1 千万卢比。
+  </footer>
+</div>
+<script>
+  document.getElementById('save').addEventListener('click', function () {
+    var blob = new Blob(['<!DOCTYPE html>\n' + document.documentElement.outerHTML], {type: 'text/html;charset=utf-8'});
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'hyderabad-furniture-market-2026.html';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+</script>
+</body>
+</html>
